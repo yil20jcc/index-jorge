@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de inventario</title>
+    <link rel="stylesheet" href="CSS/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="icon" href="Asessets/Imagenes/Favicon.png" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+        <div class="nav-header">
+          <h2 class="nav-header-title">
+            Sistema de información para le gestión del inventario de
+            instrumentos
+          </h2>
+          <h2 class="nav-header-title-2">Sistema de gestión de inventario</h2>
+          <h1>
+            Sistema de información para le gestión del inventario de
+            instrumentos de "El Sistema de Orquestas Nacional" - Núcleo Chivacoa
+          </h1>
+          <ul class="nav-sesion">
+            <li>Jorge Arévalo</li>
+            <li>
+              <a href="#"
+                ><img
+                  style="width: 16px"
+                  src="Asessets/Icons/gear-solid.svg"
+                  alt="configuracion"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  style="width: 16px"
+                  src="Asessets/Icons/power-off-solid.svg"
+                  alt="cerrar sesion"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid">
+          <img src="Asessets/Imagenes/logo-pagina-2.png" alt="logo-pagina" />
+          <button
+            class="navbar-toggler button-responsive"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pd-r-50">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Estudiantes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profesores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Instrumentos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Registrar
+                </a>
+                <ul class="dropdown-menu menu-desplegable">
+                  <li><a class="dropdown-item" href="#">Estudiante</a></li>
+                  <li><a class="dropdown-item" href="#">Profesor</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Instrumento</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="button-buscar-responsive">
+                <img
+                  style="width: 20px; height: 20px"
+                  src="Asessets/Icons/magnifying-glass-solid.svg"
+                  alt="buscar"
+                />
+              </button>
+              <input
+                class="form-control me-2 buscador"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success formulario-button"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin del Header -->
+    <!-- Main -->
+    <main class="main">
+      <section class="aside">
+        <div class="dropdown registrar-button">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span>
+              <img
+                style="width: 16px; height: 16px; margin: 2px"
+                src="Asessets/Icons/upload-solid.svg"
+                alt="cargar"
+              />
+              Registar
+            </span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Estudiante</a></li>
+            <li><a class="dropdown-item" href="#">Profesor</a></li>
+            <li><a class="dropdown-item" href="#">Instrumento</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Prestamo de instrumento</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tipos-instrumentos">
+          <ul class="dropdown aside-button">
+            <li class="aside-button-li">
+              <a
+                href="#"
+                class="dropdown-toggle aside-item"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                ><span
+                  ><img
+                    src="Asessets/Icons/music-solid.svg"
+                    style="width: 16px; height: 16px; margin: 0 8px"
+                    alt="musica" /></span
+                >Instrumento 1</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ejemplo 1</a></li>
+                <li><a class="dropdown-item" href="#">Ejemplo 2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Ejemplo 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="aside-button-li">
+              <a
+                href="#"
+                class="dropdown-toggle aside-item"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span
+                  ><img
+                    src="Asessets/Icons/music-solid.svg"
+                    style="width: 16px; height: 16px; margin: 0 8px"
+                    alt="musica" /></span
+                >Instrumento 2</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ejemplo 1</a></li>
+                <li><a class="dropdown-item" href="#">Ejemplo 2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Ejemplo 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="aside-button-li">
+              <a
+                href="#"
+                class="dropdown-toggle aside-item"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span
+                  ><img
+                    src="Asessets/Icons/music-solid.svg"
+                    style="width: 16px; height: 16px; margin: 0 8px"
+                    alt="musica" /></span
+                >Instrumento 3</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ejemplo 1</a></li>
+                <li><a class="dropdown-item" href="#">Ejemplo 2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Ejemplo 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="aside-button-li">
+              <a
+                href="#"
+                class="dropdown-toggle aside-item"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span
+                  ><img
+                    src="Asessets/Icons/music-solid.svg"
+                    style="width: 16px; height: 16px; margin: 0 8px"
+                    alt="musica" /></span
+                >Instrumento 4</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ejemplo 1</a></li>
+                <li><a class="dropdown-item" href="#">Ejemplo 2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Ejemplo 3</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="cuerpo">
+        <h1>Inventario de instrumentos</h1>
+        <ul class="cuerpo-filtros">
+          <li><a href="#" class="active">Todos</a></li>
+          <li><a href="#">Disponibles</a></li>
+          <li><a href="#">No disponibles</a></li>
+          <li><a href="#">Filtro</a></li>
+        </ul>
+        <table class="tabla">
+          <thead class="cabecera-tabla">
+            <tr>
+              <th>Serial</th>
+              <th>Instrumento</th>
+              <th>Nombre</th>
+              <th>Contacto</th>
+              <th>Disponibilidad</th>
+              <th>fecha</th>
+            </tr>
+          </thead>
+          <tbody class="tabla-main">
+            <tr>
+              <td>13245678</td>
+              <td>instrumento 1</td>
+              <td>Estudiante 1</td>
+              <td>+5854565859</td>
+              <td>Si</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>23245678</td>
+              <td>instrumento 2</td>
+              <td>Estudiante 2</td>
+              <td>+5854565859</td>
+              <td>No</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>33245678</td>
+              <td>instrumento 3</td>
+              <td>Estudiante 3</td>
+              <td>+5854565859</td>
+              <td>Si</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>43245678</td>
+              <td>instrumento 4</td>
+              <td>Estudiante 4</td>
+              <td>+5854565859</td>
+              <td>Si</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>53245678</td>
+              <td>instrumento 5</td>
+              <td>Estudiante 5</td>
+              <td>+5854565859</td>
+              <td>No</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>63245678</td>
+              <td>instrumento 6</td>
+              <td>Estudiante 6</td>
+              <td>+5854565859</td>
+              <td>No</td>
+              <td>04/05/2024</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="botones-accion">
+          <a class="boton green" href="#">Añadir</a>
+          <a class="boton yellow" href="#">Modificar</a>
+          <a class="boton red" href="#">Eliminar</a>
+        </div>
+      </section>
+    </main>
+    <!-- Fin del Main -->
+    <!-- Footer -->
+    <footer class="footer">
+      <h2 class="footer-titulo">
+        Copyright © Sistema Nacional de Orquestas - Núcleo Chivacoa. 2024
+      </h2>
+    </footer>
+    <!-- Fin del Footer -->
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

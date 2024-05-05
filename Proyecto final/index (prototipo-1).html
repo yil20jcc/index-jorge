@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de inventario</title>
+    <link rel="stylesheet" href="CSS/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <img
+        class="imagen"
+        src="Asessets/Imagenes/logo-pagina.png"
+        alt="logo-pagina"
+      />
+      <div class="buscar">
+        <!-- <label
+          ><img
+            style="width: 30px; height: 25px"
+            src="Asessets/Icons/magnifying-glass-solid.svg"
+            alt="buscador"
+        /></label> -->
+        <input class="buscador" type="text" placeholder="Buscar" />
+      </div>
+      <ul class="menu">
+        <li class="menu-item"><a href="#">Item 1</a></li>
+        <li class="menu-item"><a href="#">Item 2</a></li>
+        <li class="menu-item"><a href="#">Item 3</a></li>
+      </ul>
+    </header>
+    <!-- Fin del header -->
+    <!-- Main -->
+    <main class="main">
+      <section class="aside">
+        <button class="boton-registrar"><h6>Registrar +</h6></button>
+        <section class="tipos-instrumentos">
+          <ul class="menu-instrumentos">
+            <li><a href="#">Instrumento 1</a></li>
+            <li><a href="#">Instrumento 2</a></li>
+            <li><a href="#">Instrumento 3</a></li>
+            <li><a href="#">Instrumento 4</a></li>
+          </ul>
+        </section>
+      </section>
+      <section class="cuerpo">
+        <h1>Inventario de instrumentos</h1>
+        <table class="tabla">
+          <thead class="cabecera-tabla">
+            <tr>
+              <th>Serial</th>
+              <th>Instrumento</th>
+              <th>Nombre</th>
+              <th>Contacto</th>
+              <th>Disponibilidad</th>
+              <th>fecha</th>
+            </tr>
+          </thead>
+          <tbody class="tabla-main">
+            <tr>
+              <td>13245678</td>
+              <td>instrumento 1</td>
+              <td>Estudiante 1</td>
+              <td>+5854565859</td>
+              <td>Si</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>23245678</td>
+              <td>instrumento 2</td>
+              <td>Estudiante 2</td>
+              <td>+5854565859</td>
+              <td>No</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>33245678</td>
+              <td>instrumento 3</td>
+              <td>Estudiante 3</td>
+              <td>+5854565859</td>
+              <td>Si</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>43245678</td>
+              <td>instrumento 4</td>
+              <td>Estudiante 4</td>
+              <td>+5854565859</td>
+              <td>Si</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>53245678</td>
+              <td>instrumento 5</td>
+              <td>Estudiante 5</td>
+              <td>+5854565859</td>
+              <td>No</td>
+              <td>04/05/2024</td>
+            </tr>
+            <tr>
+              <td>63245678</td>
+              <td>instrumento 6</td>
+              <td>Estudiante 6</td>
+              <td>+5854565859</td>
+              <td>No</td>
+              <td>04/05/2024</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="botones-accion">
+          <a class="boton green" href="#">Añadir</a>
+          <a class="boton yellow" href="#">Modificar</a>
+          <a class="boton red" href="#">Eliminar</a>
+        </div>
+      </section>
+    </main>
+    <!-- Fin del main -->
+  </body>
+</html>

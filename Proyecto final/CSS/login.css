@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #fcffe0;
+}
+
+.login {
+  background-color: #fff7f1;
+  width: 600px;
+  height: 700px;
+  margin: 100px auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.titulo-login {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.formulario {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario-imagen {
+  text-align: center;
+  margin: 20px;
+}
+
+.formulario-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.formulario-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #311e7a;
+  padding: 5px;
+  outline: none;
+}
+
+.formulario-input:focus {
+  border: 2px solid #ba007c;
+  box-shadow: 0 0 10px rgba(186, 0, 124, 1);
+}
+
+.formulario-boton {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #311e7a;
+  cursor: pointer;
+  color: #311e7a;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.formulario-boton:hover {
+  background-color: #311e7a;
+  color: #fff;
+}
+
+.formulario-recuperacion {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-titulo {
+  color: #fff;
+  font-size: 1.1rem;
+}
+/* Fin del Footer */

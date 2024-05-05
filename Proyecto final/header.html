@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="CSS/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top header">
+        <div class="nav-header">
+          <h2 class="nav-header-title">
+            Sistema de información para le gestión del inventario de
+            instrumentos
+          </h2>
+          <h2 class="nav-header-title-2">Sistema de gestión de inventario</h2>
+          <h1>
+            Sistema de información para le gestión del inventario de
+            instrumentos de "El Sistema de Orquestas Nacional" - Núcleo Chivacoa
+          </h1>
+          <ul class="nav-sesion">
+            <li>Jorge Arévalo</li>
+            <li>
+              <a href="#"
+                ><img
+                  style="width: 16px"
+                  src="Asessets/Icons/gear-solid.svg"
+                  alt="configuracion"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  style="width: 16px"
+                  src="Asessets/Icons/power-off-solid.svg"
+                  alt="cerrar sesion"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid">
+          <img src="Asessets/Imagenes/logo-pagina-2.png" alt="logo-pagina" />
+          <button
+            class="navbar-toggler button-responsive"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pd-r-50">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Estudiantes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profesores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Instrumentos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Registrar
+                </a>
+                <ul class="dropdown-menu menu-desplegable">
+                  <li><a class="dropdown-item" href="#">Estudiante</a></li>
+                  <li><a class="dropdown-item" href="#">Profesor</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Instrumento</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="button-buscar-responsive">
+                <img
+                  style="width: 20px; height: 20px"
+                  src="Asessets/Icons/magnifying-glass-solid.svg"
+                  alt="buscar"
+                />
+              </button>
+              <input
+                class="form-control me-2 buscador"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success formulario-button"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="Js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
